@@ -1,0 +1,27 @@
+# OpenAI Playbook For Noobs
+
+提供 OpenAI API 的简单例子。
+
+* [使用 Embeddings 来提升 GPT 回答问题的能力](embeddings.ipynb)
+
+其它文档正在逐步添加中。
+
+如何使用：
+
+```bash
+rye init
+rye add openai pandas tiktoken scipy jupyterlab ipykernel
+rye sync
+rye run jupyter-lab
+```
+
+或者使用 pip：
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+(venv) python -m pip install openai pandas tiktoken scipy jupyterlab ipykernel
+(venv) jupyter-lab
+```
+
+* License: WTFPL
+* Author: GUAN Xiaoyu

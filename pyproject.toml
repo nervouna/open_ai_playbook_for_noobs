@@ -1,0 +1,18 @@
+[project]
+name = "Notebooks"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [
+    { name = "damao", email = "xiaoyuguan@hotmail.com" }
+]
+dependencies = [ "openai~=0.27.4", "pandas~=2.0.1", "numpy~=1.24.3", "scipy~=1.10.1", "tiktoken~=0.3.3", "ipykernel~=6.22.0", "jupyterlab~=4.0.0b2"]
+readme = "README.md"
+requires-python = ">= 3.8"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
