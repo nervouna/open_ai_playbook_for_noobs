@@ -10,7 +10,6 @@
 
 ```bash
 rye init
-rye add openai pandas tiktoken scipy jupyterlab ipykernel
 rye sync
 rye run jupyter-lab
 ```
@@ -18,10 +17,11 @@ rye run jupyter-lab
 或者使用 pip：
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate
 (venv) python -m pip install openai pandas tiktoken scipy jupyterlab ipykernel
 (venv) jupyter-lab
 ```
 
-* License: WTFPL
+* License: [WTFPL](LICENSE)
 * Author: GUAN Xiaoyu
