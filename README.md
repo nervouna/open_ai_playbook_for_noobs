@@ -3,6 +3,7 @@
 提供 OpenAI API 的简单例子。
 
 * [使用 Embeddings 来提升 GPT 回答问题的能力](playbooks/embeddings.ipynb)
+* [利用上下文来使 GPT 的回复遵循固定格式](playbooks/generate_text_with_pattern.ipynb)
 
 其它文档正在逐步添加中。
 
