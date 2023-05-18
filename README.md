@@ -4,6 +4,7 @@
 
 * [使用 Embeddings 来提升 GPT 回答问题的能力](playbooks/embeddings.ipynb)
 * [利用上下文来使 GPT 的回复遵循固定格式](playbooks/generate_text_with_pattern.ipynb)
+* [处理超过 token 限制的长文本](playbooks/summarize_long_text.ipynb)
 
 其它文档正在逐步添加中。
 
