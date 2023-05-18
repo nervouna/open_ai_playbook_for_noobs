@@ -5,7 +5,7 @@ description = "Add a short description here"
 authors = [
     { name = "damao", email = "xiaoyuguan@hotmail.com" }
 ]
-dependencies = [ "openai~=0.27.4", "pandas~=2.0.1", "numpy~=1.24.3", "scipy~=1.10.1", "tiktoken~=0.3.3", "ipykernel~=6.22.0", "jupyterlab~=4.0.0b2"]
+dependencies = [ "openai~=0.27.4", "pandas~=2.0.1", "numpy~=1.24.3", "scipy~=1.10.1", "tiktoken~=0.3.3", "ipykernel~=6.22.0", "jupyterlab~=4.0.0b2", "langchain~=0.0.152", "google-search-results~=2.4.2"]
 readme = "README.md"
 requires-python = ">= 3.8"
 license = { text = "MIT" }
